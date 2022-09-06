@@ -1,5 +1,3 @@
-
-
 the Data Science and STEM Salaries dataset.
 
 https://www.kaggle.com/datasets/jackogozaly/data-science-and-stem-salaries
