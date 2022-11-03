@@ -1,4 +1,5 @@
-the Data Science and STEM Salaries dataset.
+Covid, A catalyst for new job roles ?
+========================================================
 
 https://www.kaggle.com/datasets/jackogozaly/data-science-and-stem-salaries
 
@@ -21,3 +22,38 @@ How do salaries differ over fields? Has base salary increased over the 4 year pe
 These are some of the questions I hope to get insight into. Answers to these questions will help me and my fellow students to make better-informed decisions in the future.
 
 I hope to use the tools that are thought in Bios 611 course to work on the dataset to generate the needed insights.
+
+
+=====================================================================================================================
+
+
+Getting Started
+===============
+
+Build the docker image by typing:
+```
+docker build . -t project611
+```
+
+And then start an RStudio by typing:
+
+```
+docker run -v $(pwd):/home/rstudio/project -p 8787:8787 -e PASSWORD=<some-password>
+```
+
+Once the Rstudio is running connect to it by visiting
+https://localhost:8787 in your browser. 
+
+To build the final report, visit the terminal in RStudio and type
+
+```
+make report.pdf
+
+
+Alternatively run 
+```
+docker run -v $(pwd):/home/rstudio/project\
+       --user="rstudio" --workdir="/home/rstudio/project" -t project611\
+       make report.pdf
+       
+```
