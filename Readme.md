@@ -12,7 +12,7 @@ Best Companies For Data Scientists? Best Companies For Software Engineers?
 
 These are some of the questions I hope to get insight into. Answers to these questions will help me and my fellow students to make better-informed decisions in the future.
 
-I hope to use the tools thought in Bios 611 course to work on the dataset to generate the needed insights.
+I hope to use the tools taught in Bios 611 course to work on the dataset to generate the needed insights.
 
 
 ===========================================================================================
